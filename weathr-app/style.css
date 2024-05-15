@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+    font-family: 'Poppins', sans-serif;
+    color: orangered;
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 35px 0;
+    margin-top: 50px;
+    background-color: rgb(22, 21, 21);
+    border-radius: 9px;
+}
+
+input{
+     width: 250px;
+     height: 25px;
+     border: none;
+     outline: none;
+     border-radius: 4px;
+
+}
+
+input[placeholder="Enter the city name"]{
+    padding: 0 10px;
+}
+
+button{
+    width: 70px;
+    height: 25px;
+    border-radius: 4px;
+    border: none;
+    color: orangered;
+    font-weight: 600;
+    background-color: rgb(82, 81, 81);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(53, 52, 52);
+}
+
+.result{
+    margin-top: 30px;
+    display: none;
+    
+}
+
+.result img{
+    width: 80px;
+    height: 80px;
+}
+
+#t{
+    font-size: 80px;
+    margin-left: 10px;
+}
+
+#change{
+    font-size: 80px;
+    display: inline-block;
+    
+}
+
+.result h3{
+    font-size: 30px;
+    color: rgb(211, 209, 208);
+}
+
+.result button{
+    width: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.result button:focus{
+    background-color: rgb(53, 52, 52);
+}
+
+.result h5{
+    font-size: 25px; 
+}
